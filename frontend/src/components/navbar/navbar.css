@@ -1,0 +1,58 @@
+.navbar {
+    height: 50px;
+    background-color: #31032a;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .logo:hover {
+    color: #178f85;
+  }
+  
+  .navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+    border-radius: 10px;
+  }
+  
+  .navItems {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .usernameContainer,
+  .navButton {
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .usernameContainer {
+    background-color: #0071c2;
+  }
+  
+  .navButton {
+    background-color: #ff5722; /* Update with the desired background color */
+  }
+  
